@@ -1,0 +1,5 @@
+{
+  "features_order": ["gpa","faltas","horas_lms","creditos"],
+  "defaults": {"gpa": 0, "faltas": 0, "horas_lms": 0, "creditos": 0},
+  "threshold": 0.5
+}

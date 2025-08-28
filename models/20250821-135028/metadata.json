@@ -1,0 +1,58 @@
+{
+  "version": "20250821-135028",
+  "framework": {
+    "sklearn": "1.4.2"
+  },
+  "metrics": {
+    "RandomForest": {
+      "f1": 0.5714285714285714,
+      "precision": 1.0,
+      "recall": 0.4,
+      "auc": 0.9864197530864198,
+      "pr_auc": 0.9476190476190477,
+      "brier": 0.0415719971540795
+    },
+    "XGBoost": {
+      "f1": 0.9473684210526315,
+      "precision": 1.0,
+      "recall": 0.9,
+      "auc": 1.0,
+      "pr_auc": 0.9999999999999999,
+      "brier": 0.008477980862336316
+    },
+    "SVM": {
+      "f1": 0.4,
+      "precision": 0.6,
+      "recall": 0.3,
+      "auc": 0.8506172839506173,
+      "pr_auc": 0.4863304608419008,
+      "brier": 0.07693511652440271
+    }
+  },
+  "features": [
+    "OBSERVACIONES",
+    "NOMBRE",
+    "ESTADO CIVIL",
+    "TIEMPO AL TESCHI",
+    "PROMEDIO",
+    "CARRERA",
+    "TIENE HIJOS",
+    "VIVE CON",
+    "APOYO FINANCIERO DE",
+    "PROBLEMAS ECONOMICOS",
+    "CUENTA CON EQUIPO DE COMPUTO",
+    "SITUACIÓN ACTUAL",
+    "SITUACIÓN ESTUDIANTIL",
+    "HE CONSIDERADO ABANDONAR MIS ESTUDIOS",
+    "METODOS O PROMEBLAS DE APRENDIZAJE",
+    "FORTALEZAS / DEBILIDADES EN EL CAMPO ESTUDIANTIL",
+    "TRATAMIENTO MEDICO",
+    "CONSUMO DE NICOTINA",
+    "CONSUMO DE ALCOHOL",
+    "CONSUMO DE OTRAS SUSTANCIAS",
+    "ESTADO DE ANIMO",
+    "SALUD MENTAL",
+    "PROBLEMAS DE VIOLENCIA"
+  ],
+  "training_data_fingerprint": "sha256:e4d5c2ca0027e782bfa29cfc6557d418f6fa3b209077e94aa2c1fae298eeedea"
+}

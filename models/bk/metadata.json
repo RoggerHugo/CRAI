@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "metrics": {
+    "RandomForest": {"auc": 0.88, "f1": 0.75},
+    "XGBoost":      {"auc": 0.90, "f1": 0.77},
+    "SVM":          {"auc": 0.86, "f1": 0.74}
+  },
+  "default_model": "XGBoost"
+}
