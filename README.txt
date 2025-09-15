@@ -5,7 +5,7 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 prometheus-fastapi-instrumentator
-numpy
-scikit-learn==1.4.2
-xgboost
+numpy>=2.2
+scikit-learn>=1.6
+xgboost>=2.1
 joblib
