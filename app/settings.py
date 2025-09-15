@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     API_KEY: str = "dev-change-me"
     METRICS_KEY: str = "dev-metrics-key"
     ALLOWED_ORIGINS: list[str] = ["http://localhost:3000"]
-    ALLOWED_HOSTS: list[str] = ["localhost", "127.0.0.1"]
+    ALLOWED_HOSTS: list[str] = ["localhost", "127.0.0.1","*.onrender.com"]
 
     # Server hardening
     MAX_BODY_BYTES: int = 256 * 1024  # 256 KB
